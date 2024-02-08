@@ -1,0 +1,20 @@
+    {%-
+        assign files =
+          site.static_files
+          | where_exp: "file", "file.extname contains '.htm'"
+    -%}
+
+    {%- if files.size > 0 %}    <ul>
+      {%- for file in files -%}
+        {%-
+            assign path =
+              file.path
+              | remove_first: page.url
+              | remove_first: "/index.html"
+        %}
+      <li>
+        <a href="{{- path | append: "/" -}}">{{- path -}}</a>
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
