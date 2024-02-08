@@ -1,7 +1,7 @@
-# [Plain](https://jekyll-theme-plain.github.io/)
+# Plain
 
 Plain is a plain text-like Jekyll theme for GitHub Pages.
 
-## Usage
+## Templates
 
-Copy the [_config.yml](_config.yml) to your repo and edit it.
+* [single-page](https://github.com/jekyll-theme-plain/single-page)
