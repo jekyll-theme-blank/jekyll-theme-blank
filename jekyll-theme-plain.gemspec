@@ -9,8 +9,5 @@ Gem::Specification.new do |spec|
 
   spec.files    = Dir["LICENSE*", "README*", "_includes/*", "_layouts/*"]
 
-  spec.add_runtime_dependency "github-pages", "~> 230"
-  spec.add_runtime_dependency "webrick", "~> 1.7"
-
-  spec.add_development_dependency "bundler", "~> 2.5"
+  spec.add_runtime_dependency "jekyll", ">= 3.5", "< 5.0"
 end
