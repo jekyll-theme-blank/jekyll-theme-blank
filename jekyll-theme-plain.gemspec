@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name     = "jekyll-theme-plain"
-  spec.version  = "0.6.0.dev"
+  spec.version  = "0.7.0.dev"
   spec.authors  = ["yuuki"]
 
   spec.summary  = "Plain text-like Jekyll theme for GitHub Pages."
