@@ -1,11 +1,10 @@
     {%-
-        assign files =
+        assign html_files =
           site.static_files
           | where_exp: "file", "file.extname contains '.htm'"
     -%}
-
-    {%- if files.size > 0 %}    <ul>
-      {%- for file in files -%}
+    {%- if html_files.size > 0 %}    <ul>
+      {%- for file in html_files -%}
         {%-
             assign path =
               file.path
