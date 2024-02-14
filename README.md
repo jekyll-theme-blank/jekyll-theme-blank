@@ -26,8 +26,7 @@ See the template's [_config.yml](https://github.com/jekyll-theme-plain/blog/blob
 ## Layouts
 
 * [default](_layouts/default.html) (aliases: base, home, page)
-* [plain](_layouts/plain.html)
-* post - same as `plain` but the page URL is set to the title.
+* [post](_layouts/post.html)
 
 ## Includes
 
