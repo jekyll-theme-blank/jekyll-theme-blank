@@ -34,4 +34,6 @@ See the template's [_config.yml](https://github.com/jekyll-theme-plain/blog/blob
 * [page-listing.html](_includes/page-listing.html)
 * [post-listing.html](_includes/post-listing.html)
 
+For example, you can place a post listing on any page by writing `{%- include post-listing.html -%}`.
+
 </details>
