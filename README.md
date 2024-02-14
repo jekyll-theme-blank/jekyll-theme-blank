@@ -14,6 +14,9 @@ You can use the following templates:
 
 ### Manual setup
 
+<details>
+<summary>[show]</summary>
+
 To set up manually, add the following to your `_config.yml`:
 
     remote_theme: jekyll-theme-plain/jekyll-theme-plain
@@ -24,3 +27,11 @@ See the template's [_config.yml](https://github.com/jekyll-theme-plain/blog/blob
 
 * [default](_layouts/default.html) (aliases: base, home, page)
 * [plain](_layouts/plain.html) (alias: post)
+
+## Includes
+
+* [directory-listing.html](_includes/directory-listing.html)
+* [page-listing.html](_includes/page-listing.html)
+* [post-listing.html](_includes/post-listing.html)
+
+</details>
