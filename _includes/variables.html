@@ -12,10 +12,10 @@
 {%- assign default_charset       = "utf-8" -%}
 {%- assign default_color_scheme  = "light dark" -%}
 {%- assign default_viewport      = "width=device-width, initial-scale=1" -%}
-{%- assign default_title         = "" -%}
+{%- assign default_title         = nil -%}
 {%- assign default_canonical_url = page.url | absolute_url -%}
-{%- assign default_license_url   = false -%}
-{%- assign default_stylesheets   = "" | split: ", " -%}
+{%- assign default_license_url   = nil -%}
+{%- assign default_stylesheets   = nil -%}
 
 {%- comment -%}
     # Lang.
@@ -55,7 +55,14 @@
 {%- comment -%}
     # Title.
 {%- endcomment -%}
-{%- if is_post -%}
+{%- assign title = page.title -%}
+{%- if title == nil -%}{%- assign title = site.title -%}
+{%- if title == nil -%}{%- assign title = default_title -%}{%- endif -%}{%- endif -%}
+
+{%- comment -%}
+    # If the title is falsy, sets the canonical URL as the title.
+{%- endcomment -%}
+{%- unless title -%}
   {%-
       assign title =
         canonical_url
@@ -64,11 +71,7 @@
         | remove_first: "https://"
         | remove_first: "http://"
   -%}
-{%- else -%}
-  {%- assign title = page.title -%}
-  {%- if title == nil -%}{%- assign title = site.title -%}
-  {%- if title == nil -%}{%- assign title = default_title -%}{%- endif -%}{%- endif -%}
-{%- endif -%}
+{%- endunless -%}
 
 {%- comment -%}
     # License url.
