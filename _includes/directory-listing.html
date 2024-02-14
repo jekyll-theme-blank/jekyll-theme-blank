@@ -13,7 +13,9 @@
               | remove_first: "/index.html"
         %}
       <li>
-        <a href="{{- path | append: "/" -}}">{{- path -}}</a>
+        <a href="{{- path | append: "/" -}}">
+          {{- path -}}
+        </a>
       </li>
       {%- endfor %}
     </ul>
