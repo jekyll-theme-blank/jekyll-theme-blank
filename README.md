@@ -14,7 +14,7 @@ You can use the following templates:
 
 ### Manual setup
 
-Add the following to your `_config.yml`:
+To set up manually, add the following to your `_config.yml`:
 
     remote_theme: jekyll-theme-plain/jekyll-theme-plain
 
