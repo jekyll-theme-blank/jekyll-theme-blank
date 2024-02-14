@@ -1,8 +1,8 @@
 {%- comment -%}
-    # Whether the page is in the plain layout.
+    # Whether the page is a post.
 {%- endcomment -%}
-{%- if page.layout == "plain" or page.layout == "post" -%}
-  {%- assign is_plain = true -%}
+{%- if page.layout == "post" -%}
+  {%- assign is_post = true -%}
 {%- endif -%}
 
 {%- comment -%}
@@ -55,7 +55,7 @@
 {%- comment -%}
     # Title.
 {%- endcomment -%}
-{%- if is_plain -%}
+{%- if is_post -%}
   {%-
       assign title =
         canonical_url
