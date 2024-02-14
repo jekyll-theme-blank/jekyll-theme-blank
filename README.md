@@ -19,4 +19,4 @@ See the template's [_config.yml](https://github.com/jekyll-theme-plain/blog/blob
 ## Layouts
 
 * [default](_layouts/default.html) (aliases: base, home, page)
-* [plain](_layouts/plain.html) (aliases: post)
+* [plain](_layouts/plain.html) (alias: post)
