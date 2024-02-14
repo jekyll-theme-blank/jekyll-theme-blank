@@ -3,7 +3,7 @@ Gem::Specification.new do |spec|
   spec.version  = "0.5.0.dev"
   spec.authors  = ["yuuki"]
 
-  spec.summary  = "Plain text-like Jekyll theme for GitHub Pages"
+  spec.summary  = "Plain text-like Jekyll theme for GitHub Pages."
   spec.homepage = "https://github.com/jekyll-theme-plain/jekyll-theme-plain"
   spec.license  = "CC0-1.0"
 
