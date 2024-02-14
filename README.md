@@ -10,7 +10,7 @@ You can use the following templates:
 * [directory-listing](https://github.com/jekyll-theme-plain/directory-listing)
 * [single-page](https://github.com/jekyll-theme-plain/single-page)
 
-Or add the following to your `_config.yml` manually:
+Or add the following to your `_config.yml`:
 
     remote_theme: jekyll-theme-plain/jekyll-theme-plain
 
