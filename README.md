@@ -4,7 +4,7 @@ Plain is a plain text-like Jekyll theme for GitHub Pages.
 
 ## Usage
 
-You can use the following templates, which are example setups for GitHub Pages:
+You can use the following templates:
 
 * [blog](https://github.com/jekyll-theme-plain/blog)
 * [directory-listing](https://github.com/jekyll-theme-plain/directory-listing)
