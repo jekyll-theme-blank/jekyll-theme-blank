@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.authors  = ["yuuki"]
-  spec.files    = Dir["LICENSE", "README.md", "_includes/*", "_layouts/*"]
+  spec.files    = Dir["LICENSE*", "README*", "_includes/*", "_layouts/*"]
   spec.homepage = "https://github.com/jekyll-theme-plain/jekyll-theme-plain"
   spec.license  = "CC0-1.0"
   spec.name     = "jekyll-theme-plain"
