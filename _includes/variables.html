@@ -60,9 +60,9 @@
 {%- if title == nil -%}{%- assign title = default_title -%}{%- endif -%}{%- endif -%}
 
 {%- comment -%}
-    # If the title is falsy, sets the canonical URL as the title.
+    # If the title is empty, sets the canonical URL as the title.
 {%- endcomment -%}
-{%- unless title -%}
+{%- if title.size == 0 -%}
   {%-
       assign title =
         canonical_url
