@@ -7,6 +7,6 @@ Gem::Specification.new do |spec|
   spec.summary  = "Plain text-like Jekyll theme for GitHub Pages"
   spec.version  = "0.4.0"
 
-  spec.add_runtime_dependency "github-pages", "~> 228"
+  spec.add_runtime_dependency "github-pages", "~> 230"
   spec.add_runtime_dependency "webrick", "~> 1.7"
 end
