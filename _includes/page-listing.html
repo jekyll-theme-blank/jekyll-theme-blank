@@ -1,7 +1,7 @@
     {%- if site.pages.size > 0 %}    <ul>
       {%- for page in site.pages %}
       <li>
-        <a href="{{- page.url -}}">
+        <a href="{{- page.url | remove_first: page.url -}}">
           {{- page.slug -}}
         </a>
       </li>
