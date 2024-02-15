@@ -30,7 +30,7 @@ You can override the layout by creating a file of the same name in the `_layouts
 * [default](_layouts/default.html)
 * [post](_layouts/post.html)
 
-Layouts and style sheets are not applied automatically.  For posts, you may want to use the following [front matter defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in the `_config.yml`:
+Layouts and style sheets are not applied automatically; for posts, you may want to use the [front matter defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in the `_config.yml`:
 
     # Front matter defaults for posts
     defaults:
@@ -42,16 +42,14 @@ Layouts and style sheets are not applied automatically.  For posts, you may want
           stylesheets:
             # - default.css # site-wide style sheet (if any)
             - post.css
-          title: "" # If an empty string is specified, the URL is set as the title.
-
-Optionally, [front matter](https://jekyllrb.com/docs/front-matter/) can also be customized at each post.
+          title: "" # if an empty string is specified, the URL is set as the title.
 
 ## Includes
 
 You can override the include by creating a file of the same name in the `_includes` directory.
 
 * [custom-head.html](_includes/custom-head.html) - additional tags to the `<head>`
-* [post.css](_includes/post.css) - style sheet for posts (must be specified manually as above)
+* [post.css](_includes/post.css) - style sheet for posts
 
 <!-- -->
 
