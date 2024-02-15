@@ -39,7 +39,7 @@
 {%- if viewport == nil -%}{%- assign viewport = default_viewport -%}{%- endif -%}{%- endif -%}
 
 {%- comment -%}
-    # Canonical url.
+    # Canonical URL.
 {%- endcomment -%}
 {%- assign canonical_url = page.canonical_url -%}
 {%- if canonical_url == nil -%}{%- assign canonical_url = site.canonical_url -%}
@@ -67,14 +67,14 @@
 {%- endif -%}
 
 {%- comment -%}
-    # License url.
+    # License URL
 {%- endcomment -%}
 {%- assign license_url = page.license_url -%}
 {%- if license_url == nil -%}{%- assign license_url = site.license_url -%}
 {%- if license_url == nil -%}{%- assign license_url = default_license_url -%}{%- endif -%}{%- endif -%}
 
 {%- comment -%}
-    # Stylesheets.
+    # Style sheets.
 {%- endcomment -%}
 {%- assign stylesheets = page.stylesheets -%}
 {%- if stylesheets == nil -%}{%- assign stylesheets = site.stylesheets -%}
