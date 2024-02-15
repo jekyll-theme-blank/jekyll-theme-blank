@@ -52,6 +52,7 @@ Alternatively, you can use the [front matter defaults](https://jekyllrb.com/docs
         values:
           layout: post
           stylesheets:
+            # - default.css # site-wide style sheet (if any)
             - post.css
           title: "" # If an empty string is specified, the URL is set as the title.
 
