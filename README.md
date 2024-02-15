@@ -25,17 +25,17 @@ See the template's [_config.yml](https://github.com/jekyll-theme-plain/blog/blob
 
 ## Layouts
 
-You can overwrite the layout by creating a file of the same name in the `_layouts` directory.
+You can override the layout by creating a file of the same name in the `_layouts` directory.
 
 * [default](_layouts/default.html) (aliases: base, home, page)
 * [post](_layouts/post.html)
 
-Layouts are not automatically applied; you must write the following [front matter](https://jekyllrb.com/docs/front-matter/) for each post:
+Layouts are not applied automatically; you must write the following [front matter](https://jekyllrb.com/docs/front-matter/) for each post:
 
     ---
     layout: post
     
-    # Style sheets must also be specified manually.  (Loads from the `_includes` directory.)
+    # Style sheets must also be specified manually.
     stylesheets:
       - post.css
     
@@ -56,7 +56,7 @@ Alternatively, you can use the [front matter defaults](https://jekyllrb.com/docs
 
 ## Includes
 
-You can overwrite the include by creating a file of the same name in the `_includes` directory.
+You can override the include by creating a file of the same name in the `_includes` directory.
 
 * [custom-head.html](_includes/custom-head.html) - to add more tags to the `<head>`
 * [post.css](_includes/post.css) - style sheet for posts (must be specified manually as above)
