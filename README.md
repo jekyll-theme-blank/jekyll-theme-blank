@@ -37,6 +37,7 @@ Layouts are not applied automatically; you must write the following [front matte
     
     # Style sheets must also be specified manually.
     stylesheets:
+      # - default.css # site-wide style sheet (if any)
       - post.css
     
     title: Your post title
@@ -52,7 +53,7 @@ Alternatively, you can use the [front matter defaults](https://jekyllrb.com/docs
         values:
           layout: post
           stylesheets:
-            # - default.css # site-wide style sheet (if any)
+            # - default.css
             - post.css
           title: "" # If an empty string is specified, the URL is set as the title.
 
