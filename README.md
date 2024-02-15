@@ -1,4 +1,4 @@
-# Plain
+# [Plain](https://jekyll-theme-plain.github.io/blog/)
 
 Plain is a plain text-like Jekyll theme for GitHub Pages.
 
