@@ -30,20 +30,7 @@ You can override the layout by creating a file of the same name in the `_layouts
 * [default](_layouts/default.html)
 * [post](_layouts/post.html)
 
-Layouts are not applied automatically; you must write the following [front matter](https://jekyllrb.com/docs/front-matter/) for each post:
-
-    ---
-    layout: post
-    
-    # Style sheets must also be specified manually.
-    stylesheets:
-      # - default.css # site-wide style sheet (if any)
-      - post.css
-    
-    title: Your post title
-    ---
-
-Alternatively, you can use the [front matter defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in the `_config.yml`:
+Layouts and style sheets are not applied automatically.  For posts, you may want to use the following [front matter defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in the `_config.yml`:
 
     # Front matter defaults for posts
     defaults:
@@ -53,9 +40,11 @@ Alternatively, you can use the [front matter defaults](https://jekyllrb.com/docs
         values:
           layout: post
           stylesheets:
-            # - default.css
+            # - default.css # site-wide style sheet (if any)
             - post.css
           title: "" # If an empty string is specified, the URL is set as the title.
+
+Optionally, [front matter](https://jekyllrb.com/docs/front-matter/) can also be customized at each post.
 
 ## Includes
 
