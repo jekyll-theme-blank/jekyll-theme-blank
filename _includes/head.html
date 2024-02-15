@@ -8,8 +8,11 @@
 
     {%- if viewport %}
     <meta name="viewport" content="{{- viewport -}}">
-    {%- endif %}
+    {%- endif -%}
+
+    {%- if title %}
     <title>{{- title -}}</title>
+    {%- endif -%}
 
     {%- if canonical_url %}
     <link rel="canonical" href="{{- canonical_url -}}">
