@@ -58,7 +58,7 @@ Alternatively, you can use the [front matter defaults](https://jekyllrb.com/docs
 
 You can override the include by creating a file of the same name in the `_includes` directory.
 
-* [custom-head.html](_includes/custom-head.html) - to add more tags to the `<head>`
+* [custom-head.html](_includes/custom-head.html) - additional tags to the `<head>`
 * [post.css](_includes/post.css) - style sheet for posts (must be specified manually as above)
 
 <!-- -->
@@ -67,6 +67,6 @@ You can override the include by creating a file of the same name in the `_includ
 * [page-listing.html](_includes/page-listing.html)
 * [post-listing.html](_includes/post-listing.html)
 
-You can place a post listing on any page by writing `{%- include post-listing.html -%}`, and so on.
+You can place a post listing on any page by writing `{%- include post-listing.html -%}`, and so forth.
 
 </details>
