@@ -1,5 +1,5 @@
 {%- comment -%}
-    # Default values.
+    # Default values
 {%- endcomment -%}
 {%- assign default_lang          = "en" -%}
 {%- assign default_charset       = "utf-8" -%}
@@ -11,42 +11,42 @@
 {%- assign default_stylesheets   = nil -%}
 
 {%- comment -%}
-    # Lang.
+    # Lang
 {%- endcomment -%}
 {%- assign lang = page.lang -%}
 {%- if lang == nil -%}{%- assign lang = site.lang -%}
 {%- if lang == nil -%}{%- assign lang = default_lang -%}{%- endif -%}{%- endif -%}
 
 {%- comment -%}
-    # Charset.
+    # Charset
 {%- endcomment -%}
 {%- assign charset = page.charset -%}
 {%- if charset == nil -%}{%- assign charset = site.charset -%}
 {%- if charset == nil -%}{%- assign charset = default_charset -%}{%- endif -%}{%- endif -%}
 
 {%- comment -%}
-    # Color scheme.
+    # Color scheme
 {%- endcomment -%}
 {%- assign color_scheme = page.color_scheme -%}
 {%- if color_scheme == nil -%}{%- assign color_scheme = site.color_scheme -%}
 {%- if color_scheme == nil -%}{%- assign color_scheme = default_color_scheme -%}{%- endif -%}{%- endif -%}
 
 {%- comment -%}
-    # Viewport.
+    # Viewport
 {%- endcomment -%}
 {%- assign viewport = page.viewport -%}
 {%- if viewport == nil -%}{%- assign viewport = site.viewport -%}
 {%- if viewport == nil -%}{%- assign viewport = default_viewport -%}{%- endif -%}{%- endif -%}
 
 {%- comment -%}
-    # Canonical URL.
+    # Canonical URL
 {%- endcomment -%}
 {%- assign canonical_url = page.canonical_url -%}
 {%- if canonical_url == nil -%}{%- assign canonical_url = site.canonical_url -%}
 {%- if canonical_url == nil -%}{%- assign canonical_url = default_canonical_url -%}{%- endif -%}{%- endif -%}
 
 {%- comment -%}
-    # Title.
+    # Title
 {%- endcomment -%}
 {%- assign title = page.title -%}
 {%- if title == nil -%}{%- assign title = site.title -%}
@@ -67,14 +67,14 @@
 {%- endif -%}
 
 {%- comment -%}
-    # License URL.
+    # License URL
 {%- endcomment -%}
 {%- assign license_url = page.license_url -%}
 {%- if license_url == nil -%}{%- assign license_url = site.license_url -%}
 {%- if license_url == nil -%}{%- assign license_url = default_license_url -%}{%- endif -%}{%- endif -%}
 
 {%- comment -%}
-    # Style sheets.
+    # Style sheets
 {%- endcomment -%}
 {%- assign stylesheets = page.stylesheets -%}
 {%- if stylesheets == nil -%}{%- assign stylesheets = site.stylesheets -%}
