@@ -44,6 +44,7 @@ Layouts are not applied automatically; you must write the following [front matte
 
 Alternatively, you can use the [front matter defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in the `_config.yml`:
 
+    # Front matter defaults for posts
     defaults:
       - scope:
           path: ""
