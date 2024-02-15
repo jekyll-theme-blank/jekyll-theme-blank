@@ -55,7 +55,7 @@
 {%- comment -%}
     # If the title is empty, sets the canonical URL as the title.
 {%- endcomment -%}
-{%- if title.size == 0 -%}
+{%- if title and title.size == 0 -%}
   {%-
       assign title =
         canonical_url
@@ -67,7 +67,7 @@
 {%- endif -%}
 
 {%- comment -%}
-    # License URL
+    # License URL.
 {%- endcomment -%}
 {%- assign license_url = page.license_url -%}
 {%- if license_url == nil -%}{%- assign license_url = site.license_url -%}
