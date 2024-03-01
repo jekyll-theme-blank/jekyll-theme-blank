@@ -30,7 +30,7 @@ You can override the layout by creating a file of the same name in the `_layouts
 * [default](_layouts/default.html)
 * [post](_layouts/post.html)
 
-Layouts and style sheets are not applied automatically; for posts, you may want to use the [front matter defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in the `_config.yml`:
+Layouts and style sheets are not applied automatically; for posts, you may want to use the [front matter defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in `_config.yml`:
 
     # Front matter defaults for posts
     defaults:
